@@ -17,6 +17,8 @@
 		178E5B992758ACBD00AB6C16 /* Hi5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178E5B982758ACBD00AB6C16 /* Hi5UITests.swift */; };
 		178E5B9B2758ACBD00AB6C16 /* Hi5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178E5B9A2758ACBD00AB6C16 /* Hi5UITestsLaunchTests.swift */; };
 		178E5BA82758B17400AB6C16 /* signIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BA72758B17400AB6C16 /* signIn.storyboard */; };
+		178E5BAC2759093700AB6C16 /* OTP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BAB2759093700AB6C16 /* OTP.storyboard */; };
+		178E5BAF2759106900AB6C16 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BAE2759106900AB6C16 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		178E5B982758ACBD00AB6C16 /* Hi5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hi5UITests.swift; sourceTree = "<group>"; };
 		178E5B9A2758ACBD00AB6C16 /* Hi5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hi5UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		178E5BA72758B17400AB6C16 /* signIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = signIn.storyboard; sourceTree = "<group>"; };
+		178E5BAB2759093700AB6C16 /* OTP.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OTP.storyboard; sourceTree = "<group>"; };
+		178E5BAE2759106900AB6C16 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +109,9 @@
 				178E5B792758ACBC00AB6C16 /* SceneDelegate.swift */,
 				178E5B7B2758ACBC00AB6C16 /* ViewController.swift */,
 				178E5B7D2758ACBC00AB6C16 /* Main.storyboard */,
-				178E5BA72758B17400AB6C16 /* signIn.storyboard */,
+				178E5BA9275908ED00AB6C16 /* signIn */,
+				178E5BAA2759090400AB6C16 /* OTP */,
+				178E5BAD2759104B00AB6C16 /* Profile */,
 				178E5B802758ACBD00AB6C16 /* Assets.xcassets */,
 				178E5B822758ACBD00AB6C16 /* LaunchScreen.storyboard */,
 				178E5B852758ACBD00AB6C16 /* Info.plist */,
@@ -128,6 +134,30 @@
 				178E5B9A2758ACBD00AB6C16 /* Hi5UITestsLaunchTests.swift */,
 			);
 			path = Hi5UITests;
+			sourceTree = "<group>";
+		};
+		178E5BA9275908ED00AB6C16 /* signIn */ = {
+			isa = PBXGroup;
+			children = (
+				178E5BA72758B17400AB6C16 /* signIn.storyboard */,
+			);
+			path = signIn;
+			sourceTree = "<group>";
+		};
+		178E5BAA2759090400AB6C16 /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+				178E5BAB2759093700AB6C16 /* OTP.storyboard */,
+			);
+			path = OTP;
+			sourceTree = "<group>";
+		};
+		178E5BAD2759104B00AB6C16 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				178E5BAE2759106900AB6C16 /* Profile.storyboard */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +268,8 @@
 				178E5B842758ACBD00AB6C16 /* LaunchScreen.storyboard in Resources */,
 				178E5B812758ACBD00AB6C16 /* Assets.xcassets in Resources */,
 				178E5B7F2758ACBC00AB6C16 /* Main.storyboard in Resources */,
+				178E5BAC2759093700AB6C16 /* OTP.storyboard in Resources */,
+				178E5BAF2759106900AB6C16 /* Profile.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
