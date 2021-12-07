@@ -19,6 +19,8 @@
 		178E5BA82758B17400AB6C16 /* signIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BA72758B17400AB6C16 /* signIn.storyboard */; };
 		178E5BAC2759093700AB6C16 /* OTP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BAB2759093700AB6C16 /* OTP.storyboard */; };
 		178E5BAF2759106900AB6C16 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BAE2759106900AB6C16 /* Profile.storyboard */; };
+		FE553D49275F27A100DBC3A2 /* ReferAFriend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE553D48275F27A100DBC3A2 /* ReferAFriend.storyboard */; };
+		FE553D4C275F2B4500DBC3A2 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE553D4B275F2B4500DBC3A2 /* Discover.storyboard */; };
 		FECBBEC2275948C700E4AB54 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBBEC1275948C700E4AB54 /* signInViewController.swift */; };
 		FECBBEC427594C6A00E4AB54 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBBEC327594C6A00E4AB54 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +59,8 @@
 		178E5BA72758B17400AB6C16 /* signIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = signIn.storyboard; sourceTree = "<group>"; };
 		178E5BAB2759093700AB6C16 /* OTP.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OTP.storyboard; sourceTree = "<group>"; };
 		178E5BAE2759106900AB6C16 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		FE553D48275F27A100DBC3A2 /* ReferAFriend.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReferAFriend.storyboard; sourceTree = "<group>"; };
+		FE553D4B275F2B4500DBC3A2 /* Discover.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
 		FECBBEC1275948C700E4AB54 /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
 		FECBBEC327594C6A00E4AB54 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +119,8 @@
 				178E5B7D2758ACBC00AB6C16 /* Main.storyboard */,
 				178E5BA9275908ED00AB6C16 /* signIn */,
 				178E5BAA2759090400AB6C16 /* OTP */,
+				FE553D4A275F2B3200DBC3A2 /* Discover */,
+				FE553D47275F276F00DBC3A2 /* Refer a Friend */,
 				178E5BAD2759104B00AB6C16 /* Profile */,
 				178E5B802758ACBD00AB6C16 /* Assets.xcassets */,
 				178E5B822758ACBD00AB6C16 /* LaunchScreen.storyboard */,
@@ -164,6 +170,22 @@
 				FECBBEC327594C6A00E4AB54 /* ProfileViewController.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		FE553D47275F276F00DBC3A2 /* Refer a Friend */ = {
+			isa = PBXGroup;
+			children = (
+				FE553D48275F27A100DBC3A2 /* ReferAFriend.storyboard */,
+			);
+			path = "Refer a Friend";
+			sourceTree = "<group>";
+		};
+		FE553D4A275F2B3200DBC3A2 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				FE553D4B275F2B4500DBC3A2 /* Discover.storyboard */,
+			);
+			path = Discover;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,10 +293,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				178E5BA82758B17400AB6C16 /* signIn.storyboard in Resources */,
+				FE553D4C275F2B4500DBC3A2 /* Discover.storyboard in Resources */,
 				178E5B842758ACBD00AB6C16 /* LaunchScreen.storyboard in Resources */,
 				178E5B812758ACBD00AB6C16 /* Assets.xcassets in Resources */,
 				178E5B7F2758ACBC00AB6C16 /* Main.storyboard in Resources */,
 				178E5BAC2759093700AB6C16 /* OTP.storyboard in Resources */,
+				FE553D49275F27A100DBC3A2 /* ReferAFriend.storyboard in Resources */,
 				178E5BAF2759106900AB6C16 /* Profile.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
