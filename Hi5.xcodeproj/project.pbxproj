@@ -19,6 +19,8 @@
 		178E5BA82758B17400AB6C16 /* signIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BA72758B17400AB6C16 /* signIn.storyboard */; };
 		178E5BAC2759093700AB6C16 /* OTP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BAB2759093700AB6C16 /* OTP.storyboard */; };
 		178E5BAF2759106900AB6C16 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BAE2759106900AB6C16 /* Profile.storyboard */; };
+		FECBBEC2275948C700E4AB54 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBBEC1275948C700E4AB54 /* signInViewController.swift */; };
+		FECBBEC427594C6A00E4AB54 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBBEC327594C6A00E4AB54 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		178E5BA72758B17400AB6C16 /* signIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = signIn.storyboard; sourceTree = "<group>"; };
 		178E5BAB2759093700AB6C16 /* OTP.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OTP.storyboard; sourceTree = "<group>"; };
 		178E5BAE2759106900AB6C16 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		FECBBEC1275948C700E4AB54 /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		FECBBEC327594C6A00E4AB54 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				178E5BA72758B17400AB6C16 /* signIn.storyboard */,
+				FECBBEC1275948C700E4AB54 /* signInViewController.swift */,
 			);
 			path = signIn;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				178E5BAE2759106900AB6C16 /* Profile.storyboard */,
+				FECBBEC327594C6A00E4AB54 /* ProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -294,8 +300,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FECBBEC427594C6A00E4AB54 /* ProfileViewController.swift in Sources */,
 				178E5B7C2758ACBC00AB6C16 /* ViewController.swift in Sources */,
 				178E5B782758ACBC00AB6C16 /* AppDelegate.swift in Sources */,
+				FECBBEC2275948C700E4AB54 /* signInViewController.swift in Sources */,
 				178E5B7A2758ACBC00AB6C16 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
