@@ -63,6 +63,21 @@
 		178E5BA82758B17400AB6C16 /* signIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BA72758B17400AB6C16 /* signIn.storyboard */; };
 		178E5BAC2759093700AB6C16 /* OTP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BAB2759093700AB6C16 /* OTP.storyboard */; };
 		178E5BAF2759106900AB6C16 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BAE2759106900AB6C16 /* Profile.storyboard */; };
+		298F165527611ADB009272EB /* WalletTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F165327611ADB009272EB /* WalletTVCell.swift */; };
+		298F165627611ADB009272EB /* WalletTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 298F165427611ADB009272EB /* WalletTVCell.xib */; };
+		29BC2D22275FB9C100CF013E /* DealsCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC2D20275FB9C100CF013E /* DealsCVCell.swift */; };
+		29BC2D23275FB9C100CF013E /* DealsCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BC2D21275FB9C100CF013E /* DealsCVCell.xib */; };
+		29BC2D26275FBCE700CF013E /* UITableView_EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC2D25275FBCE700CF013E /* UITableView_EXT.swift */; };
+		29BC2D28275FBCEF00CF013E /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC2D27275FBCEF00CF013E /* NibLoadable.swift */; };
+		29BC2D2B275FC37C00CF013E /* DealsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC2D29275FC37C00CF013E /* DealsTVCell.swift */; };
+		29BC2D2C275FC37C00CF013E /* DealsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BC2D2A275FC37C00CF013E /* DealsTVCell.xib */; };
+		29BC2D2E275FC8C200CF013E /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC2D2D275FC8C200CF013E /* UIView+Ext.swift */; };
+		29BC2D31275FE48500CF013E /* RewardsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC2D2F275FE48500CF013E /* RewardsTVCell.swift */; };
+		29BC2D32275FE48500CF013E /* RewardsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BC2D30275FE48500CF013E /* RewardsTVCell.xib */; };
+		29BC2D35275FE9E000CF013E /* RedeemPointTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BC2D33275FE9E000CF013E /* RedeemPointTVCell.swift */; };
+		29BC2D36275FE9E000CF013E /* RedeemPointTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BC2D34275FE9E000CF013E /* RedeemPointTVCell.xib */; };
+		29D05D0E2760523000AC211B /* ReedemPointVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D05D0D2760523000AC211B /* ReedemPointVC.swift */; };
+		29D05D10276056D600AC211B /* FavouriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D05D0F276056D600AC211B /* FavouriteVC.swift */; };
 		FECBBEC2275948C700E4AB54 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBBEC1275948C700E4AB54 /* signInViewController.swift */; };
 		FECBBEC427594C6A00E4AB54 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBBEC327594C6A00E4AB54 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
@@ -145,6 +160,21 @@
 		178E5BA72758B17400AB6C16 /* signIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = signIn.storyboard; sourceTree = "<group>"; };
 		178E5BAB2759093700AB6C16 /* OTP.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OTP.storyboard; sourceTree = "<group>"; };
 		178E5BAE2759106900AB6C16 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		298F165327611ADB009272EB /* WalletTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTVCell.swift; sourceTree = "<group>"; };
+		298F165427611ADB009272EB /* WalletTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalletTVCell.xib; sourceTree = "<group>"; };
+		29BC2D20275FB9C100CF013E /* DealsCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsCVCell.swift; sourceTree = "<group>"; };
+		29BC2D21275FB9C100CF013E /* DealsCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealsCVCell.xib; sourceTree = "<group>"; };
+		29BC2D25275FBCE700CF013E /* UITableView_EXT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView_EXT.swift; sourceTree = "<group>"; };
+		29BC2D27275FBCEF00CF013E /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		29BC2D29275FC37C00CF013E /* DealsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsTVCell.swift; sourceTree = "<group>"; };
+		29BC2D2A275FC37C00CF013E /* DealsTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealsTVCell.xib; sourceTree = "<group>"; };
+		29BC2D2D275FC8C200CF013E /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		29BC2D2F275FE48500CF013E /* RewardsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsTVCell.swift; sourceTree = "<group>"; };
+		29BC2D30275FE48500CF013E /* RewardsTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RewardsTVCell.xib; sourceTree = "<group>"; };
+		29BC2D33275FE9E000CF013E /* RedeemPointTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemPointTVCell.swift; sourceTree = "<group>"; };
+		29BC2D34275FE9E000CF013E /* RedeemPointTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RedeemPointTVCell.xib; sourceTree = "<group>"; };
+		29D05D0D2760523000AC211B /* ReedemPointVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReedemPointVC.swift; sourceTree = "<group>"; };
+		29D05D0F276056D600AC211B /* FavouriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteVC.swift; sourceTree = "<group>"; };
 		FECBBEC1275948C700E4AB54 /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
 		FECBBEC327594C6A00E4AB54 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -183,6 +213,8 @@
 				171FCC03275F28F6000B653D /* RewardsViewController.swift */,
 				171FCC05275F2925000B653D /* DiscoverViewController.swift */,
 				171FCC07275F2AA8000B653D /* WalletViewController.swift */,
+				29D05D0D2760523000AC211B /* ReedemPointVC.swift */,
+				29D05D0F276056D600AC211B /* FavouriteVC.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -266,6 +298,8 @@
 				178E5B7B2758ACBC00AB6C16 /* ViewController.swift */,
 				178E5B7D2758ACBC00AB6C16 /* Main.storyboard */,
 				171FCC09275F2B4C000B653D /* Constants.swift */,
+				29BC2D24275FBCD700CF013E /* Extensions */,
+				29BC2D1F275FB97300CF013E /* Cells */,
 				171FCC0B275F2D2A000B653D /* Fonts */,
 				171FCBFC275F27BF000B653D /* Home */,
 				178E5BA9275908ED00AB6C16 /* signIn */,
@@ -320,6 +354,33 @@
 				FECBBEC327594C6A00E4AB54 /* ProfileViewController.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		29BC2D1F275FB97300CF013E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				29BC2D20275FB9C100CF013E /* DealsCVCell.swift */,
+				29BC2D21275FB9C100CF013E /* DealsCVCell.xib */,
+				29BC2D29275FC37C00CF013E /* DealsTVCell.swift */,
+				29BC2D2A275FC37C00CF013E /* DealsTVCell.xib */,
+				29BC2D2F275FE48500CF013E /* RewardsTVCell.swift */,
+				29BC2D30275FE48500CF013E /* RewardsTVCell.xib */,
+				29BC2D33275FE9E000CF013E /* RedeemPointTVCell.swift */,
+				29BC2D34275FE9E000CF013E /* RedeemPointTVCell.xib */,
+				298F165327611ADB009272EB /* WalletTVCell.swift */,
+				298F165427611ADB009272EB /* WalletTVCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		29BC2D24275FBCD700CF013E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				29BC2D25275FBCE700CF013E /* UITableView_EXT.swift */,
+				29BC2D27275FBCEF00CF013E /* NibLoadable.swift */,
+				29BC2D2D275FC8C200CF013E /* UIView+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,16 +500,21 @@
 				171FCC3B275F2D4A000B653D /* Montserrat-SemiBoldItalic.otf in Resources */,
 				171FCC4E275F2D4A000B653D /* MontserratAlternates-Medium.otf in Resources */,
 				171FCC40275F2D4A000B653D /* Montserrat-ThinItalic.otf in Resources */,
+				29BC2D23275FB9C100CF013E /* DealsCVCell.xib in Resources */,
 				171FCC3A275F2D4A000B653D /* MontserratAlternates-SemiBoldItalic.otf in Resources */,
 				171FCC4F275F2D4A000B653D /* Montserrat-Medium.otf in Resources */,
 				171FCC32275F2D4A000B653D /* MontserratAlternates-ExtraLightItalic.otf in Resources */,
 				178E5B842758ACBD00AB6C16 /* LaunchScreen.storyboard in Resources */,
+				298F165627611ADB009272EB /* WalletTVCell.xib in Resources */,
 				171FCC53275F2D4A000B653D /* MontserratAlternates-Thin.otf in Resources */,
+				29BC2D36275FE9E000CF013E /* RedeemPointTVCell.xib in Resources */,
 				178E5B812758ACBD00AB6C16 /* Assets.xcassets in Resources */,
+				29BC2D32275FE48500CF013E /* RewardsTVCell.xib in Resources */,
 				171FCC43275F2D4A000B653D /* Montserrat-Bold.otf in Resources */,
 				171FCC48275F2D4A000B653D /* Montserrat-LightItalic.otf in Resources */,
 				171FCC35275F2D4A000B653D /* Montserrat-ExtraLightItalic.otf in Resources */,
 				178E5B7F2758ACBC00AB6C16 /* Main.storyboard in Resources */,
+				29BC2D2C275FC37C00CF013E /* DealsTVCell.xib in Resources */,
 				171FCC50275F2D4A000B653D /* Montserrat-SemiBold.otf in Resources */,
 				171FCC4C275F2D4A000B653D /* Montserrat-Thin.otf in Resources */,
 				171FCC34275F2D4A000B653D /* MontserratAlternates-BlackItalic.otf in Resources */,
@@ -493,18 +559,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29BC2D2E275FC8C200CF013E /* UIView+Ext.swift in Sources */,
 				171FCC04275F28F6000B653D /* RewardsViewController.swift in Sources */,
+				29BC2D31275FE48500CF013E /* RewardsTVCell.swift in Sources */,
 				FECBBEC427594C6A00E4AB54 /* ProfileViewController.swift in Sources */,
 				171FCC02275F28DD000B653D /* OffersViewController.swift in Sources */,
+				29BC2D28275FBCEF00CF013E /* NibLoadable.swift in Sources */,
 				171FCC00275F28C9000B653D /* DashboardViewController.swift in Sources */,
 				171FCC08275F2AA8000B653D /* WalletViewController.swift in Sources */,
 				178E5B7C2758ACBC00AB6C16 /* ViewController.swift in Sources */,
 				178E5B782758ACBC00AB6C16 /* AppDelegate.swift in Sources */,
 				FECBBEC2275948C700E4AB54 /* signInViewController.swift in Sources */,
 				178E5B7A2758ACBC00AB6C16 /* SceneDelegate.swift in Sources */,
+				29BC2D26275FBCE700CF013E /* UITableView_EXT.swift in Sources */,
 				171FCBFE275F27F8000B653D /* HomeTabViewController.swift in Sources */,
 				171FCC06275F2925000B653D /* DiscoverViewController.swift in Sources */,
+				29D05D0E2760523000AC211B /* ReedemPointVC.swift in Sources */,
+				29BC2D22275FB9C100CF013E /* DealsCVCell.swift in Sources */,
+				29D05D10276056D600AC211B /* FavouriteVC.swift in Sources */,
 				171FCC0A275F2B4C000B653D /* Constants.swift in Sources */,
+				29BC2D35275FE9E000CF013E /* RedeemPointTVCell.swift in Sources */,
+				298F165527611ADB009272EB /* WalletTVCell.swift in Sources */,
+				29BC2D2B275FC37C00CF013E /* DealsTVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
