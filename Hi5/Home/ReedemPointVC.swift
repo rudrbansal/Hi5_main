@@ -1,17 +1,16 @@
 //
-//  DashboardViewController.swift
+//  ReedemPointVC.swift
 //  Hi5
 //
-//  Created by Rudr Bansal on 07/12/21.
+//  Created by Nitin Mittal on 08/12/21.
 //
 
 import UIKit
 
-class DashboardViewController: UIViewController {
-    
-    @IBOutlet weak var userImageView: UIImageView!
-    @IBOutlet weak var dealsCV: UICollectionView!
-    @IBOutlet weak var dealsTV: UITableView!
+class ReedemPointVC: UIViewController {
+
+    @IBOutlet weak var redeemPointCV: UICollectionView!
+    @IBOutlet weak var reedemPointTV: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,20 +18,20 @@ class DashboardViewController: UIViewController {
         registerCell()
     }
     
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        userImageView?.layer.cornerRadius = userImageView.frame.width/2
-    }
-
     func registerCell(){
-        dealsCV?.backgroundColor = .white
-        dealsCV?.registerCell(identifier:DealsCVCell.DealsCVCellIdentifier)
-        dealsTV?.register(UINib(nibName: DealsTVCell.DealsTVCellIdentifier, bundle: nil), forCellReuseIdentifier: "\(DealsTVCell.classForCoder())")
+        redeemPointCV?.backgroundColor = .white
+        redeemPointCV?.registerCell(identifier:DealsCVCell.DealsCVCellIdentifier)
+        reedemPointTV?.register(UINib(nibName: RedeemPointTVCell.RedeemPointTVCellIdentifier, bundle: nil), forCellReuseIdentifier: "\(RedeemPointTVCell.classForCoder())")
     }
     
+    
+    @IBAction func backClicked(_ sender: UIButton) {
+        self.navigationController?.popViewController(animated: true)
+    }
+
 }
 
-extension DashboardViewController:UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
+extension ReedemPointVC:UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 5
     }
@@ -66,24 +65,22 @@ extension DashboardViewController:UICollectionViewDelegate,UICollectionViewDataS
 }
 
 //MARK: Table View Data Source & Delegate Methods
-extension DashboardViewController:UITableViewDataSource,UITableViewDelegate {
+extension ReedemPointVC:UITableViewDataSource,UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(for: indexPath, with: DealsTVCell.self)
+        let cell = tableView.dequeueReusableCell(for: indexPath, with: RedeemPointTVCell.self)
         cell.selectionStyle = .none
         return cell
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        let vc = storyBoard.instantiateViewController(withIdentifier: "FavouriteVC_ID") as! FavouriteVC
-        self.navigationController?.pushViewController(vc, animated: true)
+    
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 105
+        return 95
     }
 }
