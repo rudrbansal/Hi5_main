@@ -58,7 +58,7 @@
                         <viewLayoutGuide key="safeArea" id="UuK-M4-vff"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Offers" id="IE8-QF-hn6"/>
+                    <tabBarItem key="tabBarItem" title="Offers" image="Offers" selectedImage="OffersColored" id="IE8-QF-hn6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oDG-lL-5bH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -74,7 +74,7 @@
                         <viewLayoutGuide key="safeArea" id="6Fl-pU-LFn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="BGO-xd-Lte"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" selectedImage="HomeColored" id="BGO-xd-Lte"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lBh-OS-YBS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -170,6 +170,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="HomeColored" width="46" height="46"/>
+        <image name="Offers" width="24" height="24"/>
+        <image name="OffersColored" width="46" height="46"/>
+        <image name="home" width="24" height="24"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
