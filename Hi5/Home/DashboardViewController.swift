@@ -30,6 +30,15 @@ class DashboardViewController: UIViewController {
         dealsTV?.register(UINib(nibName: DealsTVCell.DealsTVCellIdentifier, bundle: nil), forCellReuseIdentifier: "\(DealsTVCell.classForCoder())")
     }
     
+    @IBAction func btnActionNotification(_ sender: UIButton) {
+        let vc = CommonUtilities.shared.instantiateView(storyboard: Constants.Storyboards.main.rawValue, controller: Constants.ViewControllers.notificationsViewController.rawValue)
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @IBAction func btnActionScan(_ sender: UIButton) {
+        let vc = CommonUtilities.shared.instantiateView(storyboard: Constants.Storyboards.redeem.rawValue, controller: Constants.ViewControllers.redeemHistoryViewController.rawValue)
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }
 
 extension DashboardViewController:UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {

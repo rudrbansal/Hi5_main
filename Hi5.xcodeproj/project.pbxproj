@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170142D72762326E0074AA09 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170142D62762326E0074AA09 /* NotificationsViewController.swift */; };
+		170142D92763399A0074AA09 /* RedeemHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170142D82763399A0074AA09 /* RedeemHistoryViewController.swift */; };
+		170142DB2763540E0074AA09 /* RedemptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170142DA2763540E0074AA09 /* RedemptionViewController.swift */; };
 		171FCBFE275F27F8000B653D /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171FCBFD275F27F8000B653D /* HomeTabViewController.swift */; };
 		171FCC00275F28C9000B653D /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171FCBFF275F28C9000B653D /* DashboardViewController.swift */; };
 		171FCC02275F28DD000B653D /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171FCC01275F28DD000B653D /* OffersViewController.swift */; };
@@ -51,6 +54,12 @@
 		171FCC54275F2D4A000B653D /* MontserratAlternates-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 171FCC2F275F2D4A000B653D /* MontserratAlternates-Black.otf */; };
 		171FCC55275F2D4A000B653D /* MontserratAlternates-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 171FCC30275F2D4A000B653D /* MontserratAlternates-BoldItalic.otf */; };
 		17769C7427608C3900F472EF /* Offers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17769C7327608C3900F472EF /* Offers.storyboard */; };
+		17769C7727613A9200F472EF /* CommonUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17769C7627613A9200F472EF /* CommonUtilities.swift */; };
+		17769C7A276177C900F472EF /* OfferDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17769C79276177C900F472EF /* OfferDetailsViewController.swift */; };
+		17769C7D2761841900F472EF /* Redeem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17769C7C2761841900F472EF /* Redeem.storyboard */; };
+		17769C7F2761C1D100F472EF /* OnboardingLastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17769C7E2761C1D100F472EF /* OnboardingLastViewController.swift */; };
+		17769C812761FAAF00F472EF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17769C802761FAAF00F472EF /* SignUpViewController.swift */; };
+		17769C832762192300F472EF /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17769C822762192300F472EF /* OTPViewController.swift */; };
 		178E5B782758ACBC00AB6C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178E5B772758ACBC00AB6C16 /* AppDelegate.swift */; };
 		178E5B7A2758ACBC00AB6C16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178E5B792758ACBC00AB6C16 /* SceneDelegate.swift */; };
 		178E5B7C2758ACBC00AB6C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178E5B7B2758ACBC00AB6C16 /* ViewController.swift */; };
@@ -60,7 +69,7 @@
 		178E5B8F2758ACBD00AB6C16 /* Hi5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178E5B8E2758ACBD00AB6C16 /* Hi5Tests.swift */; };
 		178E5B992758ACBD00AB6C16 /* Hi5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178E5B982758ACBD00AB6C16 /* Hi5UITests.swift */; };
 		178E5B9B2758ACBD00AB6C16 /* Hi5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178E5B9A2758ACBD00AB6C16 /* Hi5UITestsLaunchTests.swift */; };
-		178E5BA82758B17400AB6C16 /* signIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BA72758B17400AB6C16 /* signIn.storyboard */; };
+		178E5BA82758B17400AB6C16 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BA72758B17400AB6C16 /* SignIn.storyboard */; };
 		178E5BAC2759093700AB6C16 /* OTP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BAB2759093700AB6C16 /* OTP.storyboard */; };
 		178E5BAF2759106900AB6C16 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178E5BAE2759106900AB6C16 /* Profile.storyboard */; };
 		298F165527611ADB009272EB /* WalletTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F165327611ADB009272EB /* WalletTVCell.swift */; };
@@ -78,7 +87,7 @@
 		29BC2D36275FE9E000CF013E /* RedeemPointTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BC2D34275FE9E000CF013E /* RedeemPointTVCell.xib */; };
 		29D05D0E2760523000AC211B /* ReedemPointVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D05D0D2760523000AC211B /* ReedemPointVC.swift */; };
 		29D05D10276056D600AC211B /* FavouriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D05D0F276056D600AC211B /* FavouriteVC.swift */; };
-		FECBBEC2275948C700E4AB54 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBBEC1275948C700E4AB54 /* signInViewController.swift */; };
+		FECBBEC2275948C700E4AB54 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBBEC1275948C700E4AB54 /* SignInViewController.swift */; };
 		FECBBEC427594C6A00E4AB54 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBBEC327594C6A00E4AB54 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +109,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		170142D62762326E0074AA09 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		170142D82763399A0074AA09 /* RedeemHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemHistoryViewController.swift; sourceTree = "<group>"; };
+		170142DA2763540E0074AA09 /* RedemptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedemptionViewController.swift; sourceTree = "<group>"; };
 		171FCBFD275F27F8000B653D /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
 		171FCBFF275F28C9000B653D /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		171FCC01275F28DD000B653D /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +156,12 @@
 		171FCC2F275F2D4A000B653D /* MontserratAlternates-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Black.otf"; sourceTree = "<group>"; };
 		171FCC30275F2D4A000B653D /* MontserratAlternates-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-BoldItalic.otf"; sourceTree = "<group>"; };
 		17769C7327608C3900F472EF /* Offers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Offers.storyboard; sourceTree = "<group>"; };
+		17769C7627613A9200F472EF /* CommonUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtilities.swift; sourceTree = "<group>"; };
+		17769C79276177C900F472EF /* OfferDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailsViewController.swift; sourceTree = "<group>"; };
+		17769C7C2761841900F472EF /* Redeem.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Redeem.storyboard; sourceTree = "<group>"; };
+		17769C7E2761C1D100F472EF /* OnboardingLastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingLastViewController.swift; sourceTree = "<group>"; };
+		17769C802761FAAF00F472EF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		17769C822762192300F472EF /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 		178E5B742758ACBC00AB6C16 /* Hi5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hi5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		178E5B772758ACBC00AB6C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		178E5B792758ACBC00AB6C16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,7 +175,7 @@
 		178E5B942758ACBD00AB6C16 /* Hi5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hi5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		178E5B982758ACBD00AB6C16 /* Hi5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hi5UITests.swift; sourceTree = "<group>"; };
 		178E5B9A2758ACBD00AB6C16 /* Hi5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hi5UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		178E5BA72758B17400AB6C16 /* signIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = signIn.storyboard; sourceTree = "<group>"; };
+		178E5BA72758B17400AB6C16 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		178E5BAB2759093700AB6C16 /* OTP.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OTP.storyboard; sourceTree = "<group>"; };
 		178E5BAE2759106900AB6C16 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		298F165327611ADB009272EB /* WalletTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTVCell.swift; sourceTree = "<group>"; };
@@ -175,7 +193,7 @@
 		29BC2D34275FE9E000CF013E /* RedeemPointTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RedeemPointTVCell.xib; sourceTree = "<group>"; };
 		29D05D0D2760523000AC211B /* ReedemPointVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReedemPointVC.swift; sourceTree = "<group>"; };
 		29D05D0F276056D600AC211B /* FavouriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteVC.swift; sourceTree = "<group>"; };
-		FECBBEC1275948C700E4AB54 /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		FECBBEC1275948C700E4AB54 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		FECBBEC327594C6A00E4AB54 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,6 +233,8 @@
 				171FCC07275F2AA8000B653D /* WalletViewController.swift */,
 				29D05D0D2760523000AC211B /* ReedemPointVC.swift */,
 				29D05D0F276056D600AC211B /* FavouriteVC.swift */,
+				17769C7E2761C1D100F472EF /* OnboardingLastViewController.swift */,
+				170142D62762326E0074AA09 /* NotificationsViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -266,8 +286,36 @@
 			isa = PBXGroup;
 			children = (
 				17769C7327608C3900F472EF /* Offers.storyboard */,
+				17769C79276177C900F472EF /* OfferDetailsViewController.swift */,
 			);
 			path = Offers;
+			sourceTree = "<group>";
+		};
+		17769C7527613A8000F472EF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				171FCC09275F2B4C000B653D /* Constants.swift */,
+				17769C7627613A9200F472EF /* CommonUtilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		17769C7827613BC700F472EF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				178E5B7B2758ACBC00AB6C16 /* ViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		17769C7B276183C500F472EF /* Redeem */ = {
+			isa = PBXGroup;
+			children = (
+				17769C7C2761841900F472EF /* Redeem.storyboard */,
+				170142DA2763540E0074AA09 /* RedemptionViewController.swift */,
+				170142D82763399A0074AA09 /* RedeemHistoryViewController.swift */,
+			);
+			path = Redeem;
 			sourceTree = "<group>";
 		};
 		178E5B6B2758ACBC00AB6C16 = {
@@ -295,14 +343,15 @@
 			children = (
 				178E5B772758ACBC00AB6C16 /* AppDelegate.swift */,
 				178E5B792758ACBC00AB6C16 /* SceneDelegate.swift */,
-				178E5B7B2758ACBC00AB6C16 /* ViewController.swift */,
+				17769C7827613BC700F472EF /* Base */,
 				178E5B7D2758ACBC00AB6C16 /* Main.storyboard */,
-				171FCC09275F2B4C000B653D /* Constants.swift */,
+				17769C7527613A8000F472EF /* Helpers */,
+				17769C7B276183C500F472EF /* Redeem */,
 				29BC2D24275FBCD700CF013E /* Extensions */,
 				29BC2D1F275FB97300CF013E /* Cells */,
 				171FCC0B275F2D2A000B653D /* Fonts */,
 				171FCBFC275F27BF000B653D /* Home */,
-				178E5BA9275908ED00AB6C16 /* signIn */,
+				178E5BA9275908ED00AB6C16 /* SignIn */,
 				178E5BAA2759090400AB6C16 /* OTP */,
 				17769C7227608C2500F472EF /* Offers */,
 				178E5BAD2759104B00AB6C16 /* Profile */,
@@ -330,19 +379,21 @@
 			path = Hi5UITests;
 			sourceTree = "<group>";
 		};
-		178E5BA9275908ED00AB6C16 /* signIn */ = {
+		178E5BA9275908ED00AB6C16 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
-				178E5BA72758B17400AB6C16 /* signIn.storyboard */,
-				FECBBEC1275948C700E4AB54 /* signInViewController.swift */,
+				178E5BA72758B17400AB6C16 /* SignIn.storyboard */,
+				FECBBEC1275948C700E4AB54 /* SignInViewController.swift */,
+				17769C802761FAAF00F472EF /* SignUpViewController.swift */,
 			);
-			path = signIn;
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 		178E5BAA2759090400AB6C16 /* OTP */ = {
 			isa = PBXGroup;
 			children = (
 				178E5BAB2759093700AB6C16 /* OTP.storyboard */,
+				17769C822762192300F472EF /* OTPViewController.swift */,
 			);
 			path = OTP;
 			sourceTree = "<group>";
@@ -494,7 +545,7 @@
 				171FCC45275F2D4A000B653D /* Montserrat-ExtraBoldItalic.otf in Resources */,
 				171FCC4B275F2D4A000B653D /* MontserratAlternates-Italic.otf in Resources */,
 				171FCC37275F2D4A000B653D /* MontserratAlternates-ExtraLight.otf in Resources */,
-				178E5BA82758B17400AB6C16 /* signIn.storyboard in Resources */,
+				178E5BA82758B17400AB6C16 /* SignIn.storyboard in Resources */,
 				17769C7427608C3900F472EF /* Offers.storyboard in Resources */,
 				171FCC46275F2D4A000B653D /* MontserratAlternates-ExtraBoldItalic.otf in Resources */,
 				171FCC3B275F2D4A000B653D /* Montserrat-SemiBoldItalic.otf in Resources */,
@@ -508,6 +559,7 @@
 				298F165627611ADB009272EB /* WalletTVCell.xib in Resources */,
 				171FCC53275F2D4A000B653D /* MontserratAlternates-Thin.otf in Resources */,
 				29BC2D36275FE9E000CF013E /* RedeemPointTVCell.xib in Resources */,
+				17769C7D2761841900F472EF /* Redeem.storyboard in Resources */,
 				178E5B812758ACBD00AB6C16 /* Assets.xcassets in Resources */,
 				29BC2D32275FE48500CF013E /* RewardsTVCell.xib in Resources */,
 				171FCC43275F2D4A000B653D /* Montserrat-Bold.otf in Resources */,
@@ -566,20 +618,28 @@
 				171FCC02275F28DD000B653D /* OffersViewController.swift in Sources */,
 				29BC2D28275FBCEF00CF013E /* NibLoadable.swift in Sources */,
 				171FCC00275F28C9000B653D /* DashboardViewController.swift in Sources */,
+				170142DB2763540E0074AA09 /* RedemptionViewController.swift in Sources */,
 				171FCC08275F2AA8000B653D /* WalletViewController.swift in Sources */,
+				170142D92763399A0074AA09 /* RedeemHistoryViewController.swift in Sources */,
+				17769C7F2761C1D100F472EF /* OnboardingLastViewController.swift in Sources */,
 				178E5B7C2758ACBC00AB6C16 /* ViewController.swift in Sources */,
 				178E5B782758ACBC00AB6C16 /* AppDelegate.swift in Sources */,
-				FECBBEC2275948C700E4AB54 /* signInViewController.swift in Sources */,
+				FECBBEC2275948C700E4AB54 /* SignInViewController.swift in Sources */,
+				17769C832762192300F472EF /* OTPViewController.swift in Sources */,
 				178E5B7A2758ACBC00AB6C16 /* SceneDelegate.swift in Sources */,
+				17769C7A276177C900F472EF /* OfferDetailsViewController.swift in Sources */,
 				29BC2D26275FBCE700CF013E /* UITableView_EXT.swift in Sources */,
 				171FCBFE275F27F8000B653D /* HomeTabViewController.swift in Sources */,
 				171FCC06275F2925000B653D /* DiscoverViewController.swift in Sources */,
 				29D05D0E2760523000AC211B /* ReedemPointVC.swift in Sources */,
+				170142D72762326E0074AA09 /* NotificationsViewController.swift in Sources */,
 				29BC2D22275FB9C100CF013E /* DealsCVCell.swift in Sources */,
 				29D05D10276056D600AC211B /* FavouriteVC.swift in Sources */,
+				17769C7727613A9200F472EF /* CommonUtilities.swift in Sources */,
 				171FCC0A275F2B4C000B653D /* Constants.swift in Sources */,
 				29BC2D35275FE9E000CF013E /* RedeemPointTVCell.swift in Sources */,
 				298F165527611ADB009272EB /* WalletTVCell.swift in Sources */,
+				17769C812761FAAF00F472EF /* SignUpViewController.swift in Sources */,
 				29BC2D2B275FC37C00CF013E /* DealsTVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
